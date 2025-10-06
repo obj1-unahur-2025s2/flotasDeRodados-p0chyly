@@ -46,7 +46,3 @@ test "su peso"{
   assert.equals(1200, kwid2.peso())
 }
 }
-
-describe "Testeamos la traffic"{
-
-}
