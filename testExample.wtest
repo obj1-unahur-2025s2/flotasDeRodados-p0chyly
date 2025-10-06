@@ -12,4 +12,41 @@ test "su velocidad"{
   assert.equals(150, corsita.velocidad())
 }
 
+test "su color"{
+  assert.equals(rojo, corsita.color())
+}
+
+test "su peso"{
+  assert.equals(1300, corsita.peso())
+}
+}
+
+describe "Testeamos los Kwit"{
+
+const kwid1 = new Kwid(tieneTanqueAdicional = true)
+const kwid2 = new Kwid(tieneTanqueAdicional = false)
+
+test "su capacidad"{
+  assert.equals(3, kwid1.capacidad())
+  assert.equals(4, kwid2.capacidad())
+}
+
+test "su velocidad"{
+  assert.equals(120, kwid1.velocidad())
+  assert.equals(110, kwid2.velocidad())
+}
+
+test "su color"{
+  assert.equals(azul, kwid1.color())
+  assert.equals(azul, kwid2.color())
+}
+
+test "su peso"{
+  assert.equals(1350, kwid1.peso())
+  assert.equals(1200, kwid2.peso())
+}
+}
+
+describe "Testeamos la traffic"{
+
 }

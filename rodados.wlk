@@ -11,7 +11,7 @@ class Kwid{
   const tieneTanqueAdicional
   method capacidad() = if (tieneTanqueAdicional) return 3 else return 4
   method velocidad() = if (tieneTanqueAdicional) return 120 else return 110
-  method peso() = 1200 + if (tieneTanqueAdicional) return 150 else return 0
+  method peso() = if (tieneTanqueAdicional) return 1350 else return 1200
 }
 
 object traffic{
